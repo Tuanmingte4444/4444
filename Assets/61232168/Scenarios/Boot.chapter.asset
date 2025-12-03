@@ -49,7 +49,7 @@ MonoBehaviour:
       strings:
       - Hunter_01
       - 
-      - Happy
+      - Happy_01
       - 
       - 
       - 
@@ -65,12 +65,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Angry
+      - Angry_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Angry_01.png
       isEmpty: 0
@@ -81,12 +81,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Sad
+      - Sad_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Sad_01.png
       isEmpty: 0
@@ -97,12 +97,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - MoreHappy
+      - MoreHappy_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - MoreHappy_01.png
       isEmpty: 0
@@ -113,12 +113,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Idle
+      - Idle_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Idle_01
       isEmpty: 0
@@ -129,12 +129,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - FullBodyPhoto
+      - FullBodyPhoto_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - FullBodyPhoto_01.png
       isEmpty: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
       strings:
       - Hunter_02
       - 
-      - Happy
+      - Happy_02
       - 
       - 
       - 
@@ -161,12 +161,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Angry
+      - Angry_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Angry_02.png
       isEmpty: 0
@@ -177,12 +177,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Sad
+      - Sad_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Sad_02.png
       isEmpty: 0
@@ -193,12 +193,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - MoreHappy
+      - MoreHappy_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - MoreHappy_02.png
       isEmpty: 0
@@ -209,12 +209,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Idle
+      - Idle_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Idle_02.png
       isEmpty: 0
@@ -225,12 +225,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - FullBodyPhoto
+      - FullBodyPhoto_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - FullBodyPhoto_02.png
       isEmpty: 0
@@ -238,7 +238,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 424
+    textLength: 480
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:

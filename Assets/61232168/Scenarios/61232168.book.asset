@@ -68,7 +68,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -83,7 +83,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -98,7 +98,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -113,7 +113,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -128,7 +128,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -143,7 +143,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Idle_02
       - 
       - 
       - 
@@ -158,7 +158,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -173,7 +173,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -188,7 +188,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -203,7 +203,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -218,7 +218,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -233,7 +233,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -248,7 +248,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -263,7 +263,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -277,7 +277,7 @@ MonoBehaviour:
       debugIndex: 17
       strings:
       - 
-      - Hunter_01
+      - Wolves
       - 
       - 
       - 
@@ -292,7 +292,7 @@ MonoBehaviour:
       debugIndex: 18
       strings:
       - 
-      - Hunter_02
+      - Sheeps
       - 
       - 
       - 
@@ -308,7 +308,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -323,7 +323,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -338,7 +338,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -353,7 +353,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -368,7 +368,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -383,7 +383,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -398,7 +398,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -413,7 +413,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -428,7 +428,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -444,7 +444,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -459,7 +459,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -474,7 +474,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -489,7 +489,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -504,7 +504,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -519,7 +519,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -534,7 +534,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -549,7 +549,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -564,7 +564,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -579,7 +579,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -594,7 +594,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -609,7 +609,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -624,7 +624,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -639,7 +639,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -654,7 +654,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -669,7 +669,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -684,7 +684,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -699,7 +699,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -714,7 +714,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -729,7 +729,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -744,7 +744,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -759,7 +759,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -774,7 +774,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -789,7 +789,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -804,7 +804,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -819,7 +819,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -834,7 +834,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -849,7 +849,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -864,7 +864,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Idle_02
       - 
       - 
       - 
@@ -879,7 +879,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -894,7 +894,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -909,7 +909,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -924,7 +924,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -969,7 +969,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -984,7 +984,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -999,7 +999,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -1014,7 +1014,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -1029,7 +1029,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1044,7 +1044,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -1059,7 +1059,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -1074,7 +1074,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -1089,7 +1089,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1104,7 +1104,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -1119,7 +1119,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1134,7 +1134,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -1149,7 +1149,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1164,7 +1164,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -1179,7 +1179,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Angry_01
       - 
       - 
       - 
@@ -1194,7 +1194,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -1209,7 +1209,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1224,7 +1224,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -1239,7 +1239,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1254,7 +1254,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -1269,7 +1269,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1284,7 +1284,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -1299,7 +1299,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1314,7 +1314,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -1329,7 +1329,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1344,7 +1344,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -1359,7 +1359,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1374,7 +1374,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Idle_02
       - 
       - 
       - 
@@ -1389,7 +1389,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -1404,7 +1404,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -1419,7 +1419,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -1434,7 +1434,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -1449,7 +1449,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -1464,7 +1464,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -1528,7 +1528,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Start
     type: 1
-    textLength: 2297
+    textLength: 2996
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
     entityIndexTbl: 
@@ -1567,7 +1567,7 @@ MonoBehaviour:
       strings:
       - Hunter_01
       - 
-      - Happy
+      - Happy_01
       - 
       - 
       - 
@@ -1583,12 +1583,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Angry
+      - Angry_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Angry_01.png
       isEmpty: 0
@@ -1599,12 +1599,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Sad
+      - Sad_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Sad_01.png
       isEmpty: 0
@@ -1615,12 +1615,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - MoreHappy
+      - MoreHappy_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - MoreHappy_01.png
       isEmpty: 0
@@ -1631,12 +1631,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Idle
+      - Idle_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Idle_01
       isEmpty: 0
@@ -1647,12 +1647,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - FullBodyPhoto
+      - FullBodyPhoto_01
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - FullBodyPhoto_01.png
       isEmpty: 0
@@ -1663,7 +1663,7 @@ MonoBehaviour:
       strings:
       - Hunter_02
       - 
-      - Happy
+      - Happy_02
       - 
       - 
       - 
@@ -1679,12 +1679,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Angry
+      - Angry_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Angry_02.png
       isEmpty: 0
@@ -1695,12 +1695,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Sad
+      - Sad_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Sad_02.png
       isEmpty: 0
@@ -1711,12 +1711,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - MoreHappy
+      - MoreHappy_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - MoreHappy_02.png
       isEmpty: 0
@@ -1727,12 +1727,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - Idle
+      - Idle_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - Idle_02.png
       isEmpty: 0
@@ -1743,12 +1743,12 @@ MonoBehaviour:
       strings:
       - 
       - 
-      - FullBodyPhoto
+      - FullBodyPhoto_02
       - 
       - 
       - 
       - 
-      - 
+      - .7
       - 
       - FullBodyPhoto_02.png
       isEmpty: 0
@@ -1756,7 +1756,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 424
+    textLength: 480
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
@@ -2158,7 +2158,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2173,7 +2173,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2188,7 +2188,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2203,7 +2203,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2218,7 +2218,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -2233,7 +2233,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Idle_02
       - 
       - 
       - 
@@ -2248,7 +2248,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2263,7 +2263,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2278,7 +2278,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -2293,7 +2293,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -2308,7 +2308,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2323,7 +2323,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2338,7 +2338,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2353,7 +2353,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2367,7 +2367,7 @@ MonoBehaviour:
       debugIndex: 17
       strings:
       - 
-      - Hunter_01
+      - Wolves
       - 
       - 
       - 
@@ -2382,7 +2382,7 @@ MonoBehaviour:
       debugIndex: 18
       strings:
       - 
-      - Hunter_02
+      - Sheeps
       - 
       - 
       - 
@@ -2398,7 +2398,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2413,7 +2413,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2428,7 +2428,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2443,7 +2443,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2458,7 +2458,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2473,7 +2473,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -2488,7 +2488,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2503,7 +2503,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2518,7 +2518,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2534,7 +2534,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -2549,7 +2549,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2564,7 +2564,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2579,7 +2579,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -2594,7 +2594,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2609,7 +2609,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2624,7 +2624,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -2639,7 +2639,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2654,7 +2654,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -2669,7 +2669,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -2684,7 +2684,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2699,7 +2699,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2714,7 +2714,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -2729,7 +2729,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2744,7 +2744,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2759,7 +2759,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2774,7 +2774,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2789,7 +2789,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2804,7 +2804,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2819,7 +2819,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2834,7 +2834,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -2849,7 +2849,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2864,7 +2864,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2879,7 +2879,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2894,7 +2894,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -2909,7 +2909,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -2924,7 +2924,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2939,7 +2939,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -2954,7 +2954,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Idle_02
       - 
       - 
       - 
@@ -2969,7 +2969,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -2984,7 +2984,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -2999,7 +2999,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3014,7 +3014,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -3059,7 +3059,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3074,7 +3074,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -3089,7 +3089,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -3104,7 +3104,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -3119,7 +3119,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3134,7 +3134,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -3149,7 +3149,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - MoorHappy_01
       - 
       - 
       - 
@@ -3164,7 +3164,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -3179,7 +3179,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3194,7 +3194,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -3209,7 +3209,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3224,7 +3224,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -3239,7 +3239,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3254,7 +3254,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -3269,7 +3269,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Angry_01
       - 
       - 
       - 
@@ -3284,7 +3284,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -3299,7 +3299,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3314,7 +3314,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -3329,7 +3329,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3344,7 +3344,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -3359,7 +3359,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3374,7 +3374,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Happy_02
       - 
       - 
       - 
@@ -3389,7 +3389,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3404,7 +3404,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -3419,7 +3419,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3434,7 +3434,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -3449,7 +3449,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3464,7 +3464,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Idle_02
       - 
       - 
       - 
@@ -3479,7 +3479,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -3494,7 +3494,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Angry_02
       - 
       - 
       - 
@@ -3509,7 +3509,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Idle_01
       - 
       - 
       - 
@@ -3524,7 +3524,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - MoorHappy_02
       - 
       - 
       - 
@@ -3539,7 +3539,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - 
+      - Happy_01
       - 
       - 
       - 
@@ -3554,7 +3554,7 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_02
-      - 
+      - Sad_02
       - 
       - 
       - 
@@ -3618,6 +3618,6 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Start
     type: 1
-    textLength: 2297
+    textLength: 2996
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
