@@ -159,7 +159,7 @@ MonoBehaviour:
     - rowIndex: 8
       debugIndex: 8
       strings:
-      - 
+      - Hunter_02
       - 
       - Angry_02
       - 
@@ -175,7 +175,7 @@ MonoBehaviour:
     - rowIndex: 9
       debugIndex: 9
       strings:
-      - 
+      - Hunter_02
       - 
       - Sad_02
       - 
@@ -191,7 +191,7 @@ MonoBehaviour:
     - rowIndex: 10
       debugIndex: 10
       strings:
-      - 
+      - Hunter_02
       - 
       - MoreHappy_02
       - 
@@ -207,7 +207,7 @@ MonoBehaviour:
     - rowIndex: 11
       debugIndex: 11
       strings:
-      - 
+      - Hunter_02
       - 
       - Idle_02
       - 
@@ -223,7 +223,7 @@ MonoBehaviour:
     - rowIndex: 12
       debugIndex: 12
       strings:
-      - 
+      - Hunter_02
       - 
       - FullBodyPhoto_02
       - 
@@ -238,7 +238,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 484
+    textLength: 529
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
