@@ -277,14 +277,14 @@ MonoBehaviour:
       debugIndex: 17
       strings:
       - 
-      - Wolves
+      - Hunter_01
       - 
       - 
       - 
       - 
       - 
       - 
-      - "\u72FC\u568E\u8072\u2026"
+      - "\u54C8\u54C8\u54C8\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -292,14 +292,14 @@ MonoBehaviour:
       debugIndex: 18
       strings:
       - 
-      - Sheeps
+      - Hunter_02
       - 
       - 
       - 
       - 
       - 
       - 
-      - "\u7F8A\u8E44\u8072\u2026"
+      - "\u55E8\u55E8\u55E8\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1528,7 +1528,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Start
     type: 1
-    textLength: 3003
+    textLength: 3009
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
     entityIndexTbl: 
@@ -3076,7 +3076,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .7
+      - .3
       - 
       - Happy_01.png
       isEmpty: 0
@@ -3085,14 +3085,14 @@ MonoBehaviour:
     - rowIndex: 2
       debugIndex: 2
       strings:
-      - 
+      - Hunter_01
       - 
       - Angry_01
       - 
       - 
       - 
       - 
-      - .7
+      - .3
       - 
       - Angry_01.png
       isEmpty: 0
@@ -3101,14 +3101,14 @@ MonoBehaviour:
     - rowIndex: 3
       debugIndex: 3
       strings:
-      - 
+      - Hunter_01
       - 
       - Sad_01
       - 
       - 
       - 
       - 
-      - .7
+      - .3
       - 
       - Sad_01.png
       isEmpty: 0
@@ -3117,14 +3117,14 @@ MonoBehaviour:
     - rowIndex: 4
       debugIndex: 4
       strings:
-      - 
+      - Hunter_01
       - 
       - MoreHappy_01
       - 
       - 
       - 
       - 
-      - .7
+      - .3
       - 
       - MoreHappy_01.png
       isEmpty: 0
@@ -3133,14 +3133,14 @@ MonoBehaviour:
     - rowIndex: 5
       debugIndex: 5
       strings:
-      - 
+      - Hunter_01
       - 
       - Idle_01
       - 
       - 
       - 
       - 
-      - .7
+      - .3
       - 
       - Idle_01.png
       isEmpty: 0
@@ -3149,14 +3149,14 @@ MonoBehaviour:
     - rowIndex: 6
       debugIndex: 6
       strings:
-      - 
+      - Hunter_01
       - 
       - FullBodyPhoto_01
       - 
       - 
       - 
       - 
-      - .7
+      - .3
       - 
       - FullBodyPhoto_01.png
       isEmpty: 0
@@ -3258,105 +3258,9 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 13
-      debugIndex: 13
-      strings:
-      - Hunter_01
-      - 
-      - Happy_01
-      - 
-      - 
-      - 
-      - 
-      - .5
-      - 
-      - Happy_01.png
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 14
-      debugIndex: 14
-      strings:
-      - Hunter_01
-      - 
-      - Angry_01
-      - 
-      - 
-      - 
-      - 
-      - .5
-      - 
-      - Angry_01.png
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 15
-      debugIndex: 15
-      strings:
-      - Hunter_01
-      - 
-      - Sad_01
-      - 
-      - 
-      - 
-      - 
-      - .5
-      - 
-      - Sad_01.png
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 16
-      debugIndex: 16
-      strings:
-      - Hunter_01
-      - 
-      - MoreHappy_01
-      - 
-      - 
-      - 
-      - 
-      - .5
-      - 
-      - MoreHappy_01.png
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 17
-      debugIndex: 17
-      strings:
-      - Hunter_01
-      - 
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - .5
-      - 
-      - Idle_01.png
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 18
-      debugIndex: 18
-      strings:
-      - Hunter_01
-      - 
-      - FullBodyPhoto_01
-      - 
-      - 
-      - 
-      - 
-      - .5
-      - 
-      - FullBodyPhoto_01.png
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 733
+    textLength: 574
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
@@ -3967,14 +3871,14 @@ MonoBehaviour:
       debugIndex: 17
       strings:
       - 
-      - Wolves
+      - Hunter_01
       - 
       - 
       - 
       - 
       - 
       - 
-      - "\u72FC\u568E\u8072\u2026"
+      - "\u54C8\u54C8\u54C8\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3982,14 +3886,14 @@ MonoBehaviour:
       debugIndex: 18
       strings:
       - 
-      - Sheeps
+      - Hunter_02
       - 
       - 
       - 
       - 
       - 
       - 
-      - "\u7F8A\u8E44\u8072\u2026"
+      - "\u55E8\u55E8\u55E8\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -5224,7 +5128,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Start
     type: 1
-    textLength: 3003
+    textLength: 3009
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
