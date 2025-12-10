@@ -150,7 +150,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .7
+      - .5
       - 
       - Happy_02.png
       isEmpty: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .7
+      - .5
       - 
       - Angry_02.png
       isEmpty: 0
@@ -182,7 +182,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .7
+      - .5
       - 
       - Sad_02.png
       isEmpty: 0
@@ -198,7 +198,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .7
+      - .5
       - 
       - MoreHappy_02.png
       isEmpty: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .7
+      - .5
       - 
       - Idle_02.png
       isEmpty: 0
@@ -230,15 +230,111 @@ MonoBehaviour:
       - 
       - 
       - 
-      - .7
+      - .5
       - 
       - FullBodyPhoto_02.png
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - Hunter_01
+      - 
+      - Happy_01
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - Happy_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - Hunter_01
+      - 
+      - Angry_01
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - Angry_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - Hunter_01
+      - 
+      - Sad_01
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - Sad_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - Hunter_01
+      - 
+      - MoreHappy_01
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - MoreHappy_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - Hunter_01
+      - 
+      - Idle_01
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - Idle_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 18
+      debugIndex: 18
+      strings:
+      - Hunter_01
+      - 
+      - FullBodyPhoto_01
+      - 
+      - 
+      - 
+      - 
+      - .5
+      - 
+      - FullBodyPhoto_01.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 529
+    textLength: 733
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
