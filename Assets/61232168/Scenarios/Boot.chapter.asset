@@ -236,9 +236,89 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 13
+      debugIndex: 13
+      strings:
+      - Wolf_01
+      - 
+      - WolfPack
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - WolfPack.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 14
+      debugIndex: 14
+      strings:
+      - Wolf_02
+      - 
+      - Wolf_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Wolf_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 15
+      debugIndex: 15
+      strings:
+      - Wolf_03
+      - 
+      - Wolf_08
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Wolf_08.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 16
+      debugIndex: 16
+      strings:
+      - Sheep_01
+      - 
+      - SheepPack_02
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - SheepPack_02.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 17
+      debugIndex: 17
+      strings:
+      - Sheep_02
+      - 
+      - SheepPack_03
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - SheepPack_03.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 574
+    textLength: 723
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
