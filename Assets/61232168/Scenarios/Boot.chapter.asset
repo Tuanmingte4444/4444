@@ -246,7 +246,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - WolfPack.png
       isEmpty: 0
@@ -262,7 +262,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - Wolf_02.png
       isEmpty: 0
@@ -278,7 +278,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - Wolf_08.png
       isEmpty: 0
@@ -289,28 +289,28 @@ MonoBehaviour:
       strings:
       - Sheep_01
       - 
-      - SheepPack_02
+      - SheepPack_01
       - 
       - 
       - 
       - 
+      - .3
       - 
-      - 
-      - SheepPack_02.png
+      - SheepPack_01.png
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 17
       debugIndex: 17
       strings:
-      - Sheep_02
+      - Sheep_03
       - 
       - SheepPack_03
       - 
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - SheepPack_03.png
       isEmpty: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 723
+    textLength: 733
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
@@ -344,9 +344,54 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Morning
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Morning.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Noon
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Noon.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Night
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Night.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Texture
     type: 1
-    textLength: 112
+    textLength: 162
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
@@ -387,9 +432,42 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Center
+      - Character
+      - 0
+      - 0
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Leaf
+      - Character
+      - -250
+      - 0
+      - 190
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Right
+      - Character
+      - 250
+      - 0
+      - 190
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Layer
     type: 1
-    textLength: 109
+    textLength: 171
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:

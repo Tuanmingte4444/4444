@@ -37,9 +37,9 @@ MonoBehaviour:
       debugIndex: 1
       strings:
       - 
-      - Wolves
-      - 
-      - 
+      - Wolf_01
+      - WolfPack
+      - Center
       - 
       - 
       - 
@@ -52,9 +52,9 @@ MonoBehaviour:
       debugIndex: 2
       strings:
       - 
-      - Sheeps
-      - 
-      - 
+      - Sheep_01
+      - SheepPack_01
+      - Center
       - 
       - 
       - 
@@ -66,10 +66,17 @@ MonoBehaviour:
     - rowIndex: 3
       debugIndex: 3
       strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Center
       - 
       - 
       - 
@@ -78,33 +85,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 4
-      debugIndex: 4
-      strings:
-      - 
-      - Hunter_02
-      - Sad_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u70BA\u4E86\u8DDF\u6708\u4EAE\u804A\u5929\u2026"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 5
       debugIndex: 5
       strings:
-      - 
-      - Hunter_01
-      - Happy_01
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u4E0D\uFF0C\u56E0\u70BA\u7260\u5011\u7E3D\u7B97\u770B\u898B\u982D\u9802\u7684\u5929\u72FC\u661F\u4E86\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -114,7 +106,52 @@ MonoBehaviour:
       - 
       - Hunter_02
       - Sad_02
+      - Center
       - 
+      - 
+      - 
+      - 
+      - "\u70BA\u4E86\u8DDF\u6708\u4EAE\u804A\u5929\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - 
+      - Hunter_01
+      - Happy_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u4E0D\uFF0C\u56E0\u70BA\u7260\u5011\u7E3D\u7B97\u770B\u898B\u982D\u9802\u7684\u5929\u72FC\u661F\u4E86\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
@@ -123,13 +160,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 7
-      debugIndex: 7
+    - rowIndex: 10
+      debugIndex: 10
       strings:
       - 
       - Hunter_01
       - MoreHappy_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -138,13 +175,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 8
-      debugIndex: 8
+    - rowIndex: 11
+      debugIndex: 11
       strings:
       - 
       - Hunter_02
       - Idle_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -153,13 +190,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 9
-      debugIndex: 9
+    - rowIndex: 12
+      debugIndex: 12
       strings:
       - 
       - Hunter_01
       - Happy_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -168,13 +205,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 10
-      debugIndex: 10
+    - rowIndex: 13
+      debugIndex: 13
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -183,63 +220,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 11
-      debugIndex: 11
-      strings:
-      - 
-      - Hunter_01
-      - MoreHappy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u5653... \u6709\u52D5\u975C\uFF01... \u7B49\u7B49\uFF0C\u90A3\u662F\u6211\u7684\u809A\u5B50\u5728\u53EB\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 12
-      debugIndex: 12
-      strings:
-      - 
-      - Hunter_02
-      - Happy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u7260\u5728\u568E\u53EB\u7684\u8072\u97F3\u6BD4\u771F\u6B63\u7684\u72FC\u9084\u5927\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 13
-      debugIndex: 13
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u4F60\u77E5\u9053\u5340\u5225\u4E00\u96BB\u597D\u72FC\u548C\u4E00\u96BB\u58DE\u72FC\u6700\u597D\u7684\u65B9\u6CD5\u55CE\uFF1F"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 14
       debugIndex: 14
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u770B\u7260\u6709\u6C92\u6709\u5C3E\u5DF4\uFF1F"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -248,28 +240,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Happy_01
+      - MoreHappy_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u4E0D\uFF0C\u770B\u7260\u6709\u6C92\u6709\u88AB\u6211\u7684\u9677\u9631\u593E\u4F4F\u3002"
+      - "\_\u5653... \u6709\u52D5\u975C\uFF01... \u7B49\u7B49\uFF0C\u90A3\u662F\u6211\u7684\u809A\u5B50\u5728\u53EB\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u9019\u662F\u4EC0\u9EBC\u721B\u6A19\u6E96\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -277,14 +269,14 @@ MonoBehaviour:
       debugIndex: 17
       strings:
       - 
-      - Hunter_01
-      - Happy_01
+      - Hunter_02
+      - Happy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u54C8\u54C8\u54C8\u2026"
+      - "\_\u7260\u5728\u568E\u53EB\u7684\u8072\u97F3\u6BD4\u771F\u6B63\u7684\u72FC\u9084\u5927\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -292,14 +284,14 @@ MonoBehaviour:
       debugIndex: 18
       strings:
       - 
-      - Hunter_02
-      - Idle_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u55E8\u55E8\u55E8\u2026"
+      - "\_\u4F60\u77E5\u9053\u5340\u5225\u4E00\u96BB\u597D\u72FC\u548C\u4E00\u96BB\u58DE\u72FC\u6700\u597D\u7684\u65B9\u6CD5\u55CE\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -307,29 +299,29 @@ MonoBehaviour:
       debugIndex: 19
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6628\u665A\u6211\u5922\u5230\u6211\u6293\u5230\u4E00\u96BB\u6703\u8AAA\u8A71\u7684\u72FC\u3002"
+      - "\u770B\u7260\u6709\u6C92\u6709\u5C3E\u5DF4\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
       debugIndex: 20
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\_\u7260\u8AAA\u4E86\u4EC0\u9EBC\uFF1F"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -339,7 +331,127 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Happy_01
+      - Center
       - 
+      - 
+      - 
+      - 
+      - "\u4E0D\uFF0C\u770B\u7260\u6709\u6C92\u6709\u88AB\u6211\u7684\u9677\u9631\u593E\u4F4F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u9019\u662F\u4EC0\u9EBC\u721B\u6A19\u6E96\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - 
+      - Hunter_01
+      - Happy_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u54C8\u54C8\u54C8\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - 
+      - Hunter_02
+      - Idle_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u55E8\u55E8\u55E8\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u6628\u665A\u6211\u5922\u5230\u6211\u6293\u5230\u4E00\u96BB\u6703\u8AAA\u8A71\u7684\u72FC\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u7260\u8AAA\u4E86\u4EC0\u9EBC\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - Hunter_01
+      - Happy_01
+      - Center
       - 
       - 
       - 
@@ -348,13 +460,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -363,13 +490,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
+    - rowIndex: 32
+      debugIndex: 32
       strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Right
       - 
       - 
       - 
@@ -378,13 +505,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
+    - rowIndex: 33
+      debugIndex: 33
       strings:
       - 
       - Hunter_02
       - MoreHappy_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -393,13 +520,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 25
-      debugIndex: 25
+    - rowIndex: 34
+      debugIndex: 34
       strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Right
       - 
       - 
       - 
@@ -408,13 +535,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 26
-      debugIndex: 26
+    - rowIndex: 35
+      debugIndex: 35
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -423,13 +550,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 27
-      debugIndex: 27
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
       strings:
       - 
       - Hunter_01
       - Happy_01
-      - 
+      - Center
       - 
       - 
       - 
@@ -439,13 +581,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 28
-      debugIndex: 28
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
       strings:
       - 
       - Hunter_02
       - Angry_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -454,13 +611,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
+    - rowIndex: 40
+      debugIndex: 40
       strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -469,13 +626,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
+    - rowIndex: 41
+      debugIndex: 41
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -484,13 +641,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
+    - rowIndex: 42
+      debugIndex: 42
       strings:
       - 
       - Hunter_01
       - MoreHappy_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -499,13 +656,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 32
-      debugIndex: 32
+    - rowIndex: 43
+      debugIndex: 43
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -514,183 +671,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 33
-      debugIndex: 33
-      strings:
-      - 
-      - Hunter_01
-      - Happy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u662F\u6211\u809A\u5B50\u9913\u7684\u6642\u5019\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 34
-      debugIndex: 34
-      strings:
-      - 
-      - Hunter_02
-      - MoreHappy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u6211\u540C\u610F\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 35
-      debugIndex: 35
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u4F60\u65E9\u4E0A\u8D77\u4F86\u5F9E\u4F86\u4E0D\u5237\u7259\u662F\u55CE\uFF1F"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 36
-      debugIndex: 36
-      strings:
-      - 
-      - Hunter_02
-      - Angry_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u7576\u7136\u5237\u554A\uFF01\u6211\u9084\u7528\u6CC9\u6C34\u5462\uFF01"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 37
-      debugIndex: 37
-      strings:
-      - 
-      - Hunter_01
-      - MoreHappy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u4F60\u90A3\u662F\u6F31\u53E3\uFF0C\u4E0D\u662F\u5237\u7259\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 38
-      debugIndex: 38
-      strings:
-      - 
-      - Hunter_02
-      - Sad_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5E79\u8A71\u90FD\u4F60\u5728\u8AAA\u2026"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 39
-      debugIndex: 39
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u6628\u5929\u6211\u770B\u5230\u4E00\u96BB\u677E\u9F20\u628A\u5805\u679C\u85CF\u5728\u6211\u978B\u5B50\u88E1\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 40
-      debugIndex: 40
-      strings:
-      - 
-      - Hunter_02
-      - Happy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u7260\u89BA\u5F97\u90A3\u6BD4\u4F60\u7684\u8166\u888B\u66F4\u5B89\u5168\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 41
-      debugIndex: 41
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u6211\u5011\u7684\u71DF\u706B\u5FEB\u6EC5\u4E86\uFF0C\u53BB\u64BF\u9EDE\u67F4\u706B\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - 
-      - Hunter_02
-      - Sad_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u70BA\u4EC0\u9EBC\u7E3D\u662F\u6211\uFF1F"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
-      strings:
-      - 
-      - Hunter_01
-      - Happy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u56E0\u70BA\u4F60\u6BD4\u6211\u66F4\u5E74\u8F15\u6709\u70BA\uFF0C\u8DD1\u5F97\u5FEB\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 44
       debugIndex: 44
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u6211\u77E5\u9053\uFF0C\u5C31\u662F\u5E74\u8F15\u6709\u70BA\u5730\u88AB\u4F60\u5974\u5F79\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -699,28 +691,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Idle_01
+      - Happy_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u9019\u676F\u5496\u5561\u600E\u9EBC\u5690\u8D77\u4F86\u50CF\u6CE5\u5DF4\uFF1F"
+      - "\u662F\u6211\u809A\u5B50\u9913\u7684\u6642\u5019\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 46
       debugIndex: 46
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u56E0\u70BA\u5B83\u5C31\u662F\u6CE5\u5DF4\u3002\u4F60\u6628\u5929\u628A\u6C34\u58FA\u653E\u5728\u5730\u4E0A\u5FD8\u4E86\u84CB\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -728,14 +720,14 @@ MonoBehaviour:
       debugIndex: 47
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - MoreHappy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u9019\u584A\u77F3\u982D\u770B\u8D77\u4F86\u5F88\u9069\u5408\u7576\u6795\u982D\u3002"
+      - "\u6211\u540C\u610F\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -743,14 +735,14 @@ MonoBehaviour:
       debugIndex: 48
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u4F60\u8AAA\u9019\u8A71\u7684\u6642\u5019\uFF0C\u982D\u4E0A\u525B\u597D\u9802\u8457\u4E00\u96BB\u8778\u725B\u3002"
+      - "\u4F60\u65E9\u4E0A\u8D77\u4F86\u5F9E\u4F86\u4E0D\u5237\u7259\u662F\u55CE\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -758,14 +750,14 @@ MonoBehaviour:
       debugIndex: 49
       strings:
       - 
-      - Hunter_01
-      - Happy_01
+      - Hunter_02
+      - Angry_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6B38\uFF0C\u4F60\u90A3\u500B\u6307\u5357\u91DD\u662F\u4E0D\u662F\u58DE\u4E86\uFF1F\u6211\u5011\u600E\u9EBC\u53C8\u56DE\u5230\u9019\u88E1\u4E86\uFF1F"
+      - "\u7576\u7136\u5237\u554A\uFF01\u6211\u9084\u7528\u6CC9\u6C34\u5462\uFF01"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -773,14 +765,14 @@ MonoBehaviour:
       debugIndex: 50
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - MoreHappy_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u9019\u662F\u4F60\u7684\u4EBA\u751F\u6307\u5357\uFF0C\u8001\u50A2\u4F19\uFF0C\u4E00\u76F4\u5728\u539F\u5730\u6253\u8F49\u3002"
+      - "\u4F60\u90A3\u662F\u6F31\u53E3\uFF0C\u4E0D\u662F\u5237\u7259\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -788,29 +780,29 @@ MonoBehaviour:
       debugIndex: 51
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u6C7A\u5B9A\u4E86\uFF0C\u6211\u8981\u5728\u9019\u8352\u90CA\u91CE\u5916\u84CB\u4E00\u68DF\u5225\u5885\u3002"
+      - "\u5E79\u8A71\u90FD\u4F60\u5728\u8AAA\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 52
       debugIndex: 52
       strings:
-      - 
-      - Hunter_02
-      - MoreHappy_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\_\u78BA\u5B9A\u4E0D\u6703\u8B8A\u6210\u72FC\u7AA9\u55CE\uFF1F"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -819,28 +811,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Happy_01
+      - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6628\u665A\u7684\u6708\u4EAE\u7279\u5225\u5713\uFF0C\u8B93\u6211\u89BA\u5F97\u5F88\u6D6A\u6F2B\u3002"
+      - "\u6628\u5929\u6211\u770B\u5230\u4E00\u96BB\u677E\u9F20\u628A\u5805\u679C\u85CF\u5728\u6211\u978B\u5B50\u88E1\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 54
       debugIndex: 54
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u4F60\u53EA\u662F\u5FD8\u4E86\u6536\u8863\u670D\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -848,14 +840,14 @@ MonoBehaviour:
       debugIndex: 55
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Happy_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u771F\u7684\u9700\u8981\u4E00\u500B\u52A9\u624B\u3002"
+      - "\u7260\u89BA\u5F97\u90A3\u6BD4\u4F60\u7684\u8166\u888B\u66F4\u5B89\u5168\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -863,14 +855,14 @@ MonoBehaviour:
       debugIndex: 56
       strings:
       - 
-      - Hunter_02
-      - Idle_02
+      - Hunter_01
+      - Idle_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u5C31\u662F\u4F60\u7684\u52A9\u624B\u554A\uFF01"
+      - "\u6211\u5011\u7684\u71DF\u706B\u5FEB\u6EC5\u4E86\uFF0C\u53BB\u64BF\u9EDE\u67F4\u706B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -878,14 +870,14 @@ MonoBehaviour:
       debugIndex: 57
       strings:
       - 
-      - Hunter_01
-      - MoreHappy_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u4E0D\uFF0C\u6211\u662F\u8AAA\u4E00\u500B\u6703\u505A\u98EF\u3001\u4E0D\u62B1\u6028\uFF0C\u800C\u4E14\u80FD\u5FCD\u53D7\u6211\u7684\u52A9\u624B\u3002"
+      - "\_\u70BA\u4EC0\u9EBC\u7E3D\u662F\u6211\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -893,14 +885,14 @@ MonoBehaviour:
       debugIndex: 58
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - Happy_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u90A3\u4F60\u53EF\u80FD\u9700\u8981\u4E00\u96BB\u6A5F\u5668\u4EBA\u3002"
+      - "\u56E0\u70BA\u4F60\u6BD4\u6211\u66F4\u5E74\u8F15\u6709\u70BA\uFF0C\u8DD1\u5F97\u5FEB\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -908,29 +900,29 @@ MonoBehaviour:
       debugIndex: 59
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u7684\u9B0D\u5B50\u9577\u5F97\u771F\u5FEB\uFF0C\u7C21\u76F4\u662F\u91CE\u5916\u751F\u5B58\u7684\u6A19\u914D\u3002"
+      - "\u6211\u77E5\u9053\uFF0C\u5C31\u662F\u5E74\u8F15\u6709\u70BA\u5730\u88AB\u4F60\u5974\u5F79\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 60
       debugIndex: 60
       strings:
-      - 
-      - Hunter_02
-      - Happy_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u5B83\u770B\u8D77\u4F86\u50CF\u4E00\u5718\u9CE5\u5DE2\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -939,28 +931,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Happy_01
+      - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u54C8\u54C8\u54C8\u2026"
+      - "\u9019\u676F\u5496\u5561\u600E\u9EBC\u5690\u8D77\u4F86\u50CF\u6CE5\u5DF4\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 62
       debugIndex: 62
       strings:
-      - 
-      - Hunter_02
-      - Angry_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u5E79\u8A71\u738B\u53C8\u958B\u5E79\u4E86\u55CE\u2026"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -968,14 +960,14 @@ MonoBehaviour:
       debugIndex: 63
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u4EE5\u524D\u662F\u500B\u795E\u69CD\u624B\u3002"
+      - "\u56E0\u70BA\u5B83\u5C31\u662F\u6CE5\u5DF4\u3002\u4F60\u6628\u5929\u628A\u6C34\u58FA\u653E\u5728\u5730\u4E0A\u5FD8\u4E86\u84CB\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -983,14 +975,14 @@ MonoBehaviour:
       debugIndex: 64
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u4F60\u6628\u5929\u9023\u4E00\u96BB\u5154\u5B50\u90FD\u6C92\u6253\u5230\u3002"
+      - "\u9019\u584A\u77F3\u982D\u770B\u8D77\u4F86\u5F88\u9069\u5408\u7576\u6795\u982D\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -998,14 +990,14 @@ MonoBehaviour:
       debugIndex: 65
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - MoreHappy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u90A3\u662F\u56E0\u70BA\u5154\u5B50\u8DD1\u5F97\u592A\u5FEB\u4E86\uFF0C\u7260\u5011\u80AF\u5B9A\u5403\u4E86\u706B\u7BAD\u3002"
+      - "\u4F60\u8AAA\u9019\u8A71\u7684\u6642\u5019\uFF0C\u982D\u4E0A\u525B\u597D\u9802\u8457\u4E00\u96BB\u8778\u725B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1013,14 +1005,14 @@ MonoBehaviour:
       debugIndex: 66
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Happy_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u4F60\u53EA\u662F\u8001\u82B1\u773C\u3002"
+      - "\u6B38\uFF0C\u4F60\u90A3\u500B\u6307\u5357\u91DD\u662F\u4E0D\u662F\u58DE\u4E86\uFF1F\u6211\u5011\u600E\u9EBC\u53C8\u56DE\u5230\u9019\u88E1\u4E86\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1028,29 +1020,29 @@ MonoBehaviour:
       debugIndex: 67
       strings:
       - 
-      - Hunter_01
-      - MoreHappy_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u5225\u770B\u4E0D\u8D77\u8001\u82B1\u773C\uFF0C\u81F3\u5C11\u6211\u770B\u5F97\u6E05\u695A\u904E\u53BB\u7684\u7F8E\u597D\u6642\u5149\u3002"
+      - "\u9019\u662F\u4F60\u7684\u4EBA\u751F\u6307\u5357\uFF0C\u8001\u50A2\u4F19\uFF0C\u4E00\u76F4\u5728\u539F\u5730\u6253\u8F49\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 68
       debugIndex: 68
       strings:
-      - 
-      - Hunter_02
-      - Angry_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u5929\u77E5\u9053\u4F60\u6709\u4EC0\u9EBC\u7F8E\u597D\u6642\u5149..."
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1060,27 +1052,27 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u5982\u679C\u6211\u5011\u6293\u5230\u4E00\u96BB\u72FC\u738B\uFF0C\u6211\u5011\u662F\u4E0D\u662F\u5C31\u6210\u4E86\u72FC\u7684\u7236\u89AA\uFF1F"
+      - "\u6211\u6C7A\u5B9A\u4E86\uFF0C\u6211\u8981\u5728\u9019\u8352\u90CA\u91CE\u5916\u84CB\u4E00\u68DF\u5225\u5885\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 70
       debugIndex: 70
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u4E0D\uFF0C\u4F60\u53EA\u6703\u8B8A\u6210\u52D5\u7269\u4FDD\u8B77\u5354\u6703\u7684\u9ED1\u540D\u55AE\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1088,14 +1080,14 @@ MonoBehaviour:
       debugIndex: 71
       strings:
       - 
-      - Hunter_01
-      - MoreHappy_01
+      - Hunter_02
+      - MoreHappy_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u68EE\u6797\u88E1\u7684\u4EBA\u751F\u54F2\u5B78\u662F\u4EC0\u9EBC\uFF1F"
+      - "\_\u78BA\u5B9A\u4E0D\u6703\u8B8A\u6210\u72FC\u7AA9\u55CE\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1103,14 +1095,14 @@ MonoBehaviour:
       debugIndex: 72
       strings:
       - 
-      - Hunter_02
-      - Happy_02
+      - Hunter_01
+      - Happy_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6D3B\u4E0B\u53BB\u3002"
+      - "\_\u6628\u665A\u7684\u6708\u4EAE\u7279\u5225\u5713\uFF0C\u8B93\u6211\u89BA\u5F97\u5F88\u6D6A\u6F2B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1118,14 +1110,14 @@ MonoBehaviour:
       debugIndex: 73
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u932F\uFF01\u662F\u627E\u5230\u597D\u9152\u3002"
+      - "\u4F60\u53EA\u662F\u5FD8\u4E86\u6536\u8863\u670D\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1133,14 +1125,14 @@ MonoBehaviour:
       debugIndex: 74
       strings:
       - 
-      - Hunter_02
-      - Happy_02
+      - Hunter_01
+      - Idle_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u60F3\u77E5\u9053\u5982\u679C\u72FC\u4E5F\u6703\u7528\u624B\u6A5F\uFF0C\u7260\u5011\u6703\u767C\u4EC0\u9EBC\u8CBC\u6587\uFF1F"
+      - "\u6211\u771F\u7684\u9700\u8981\u4E00\u500B\u52A9\u624B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1148,29 +1140,29 @@ MonoBehaviour:
       debugIndex: 75
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Idle_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u300C\u4ECA\u665A\u6708\u8272\u771F\u7F8E\uFF0C\u60F3\u627E\u500B\u5925\u4F34\u4E00\u8D77\u568E\u53EB\u3002\u300D"
+      - "\u6211\u5C31\u662F\u4F60\u7684\u52A9\u624B\u554A\uFF01"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 76
       debugIndex: 76
       strings:
-      - 
-      - Hunter_02
-      - MoreHappy_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u300C\u4EBA\u985E\u7684\u9677\u9631\u53C8\u5347\u7D1A\u4E86\uFF0C\u6C42\u52A9\u653B\u3002\u300D"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1179,28 +1171,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Idle_01
+      - MoreHappy_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6211\u89BA\u5F97\u6211\u7684\u80CC\u8D8A\u4F86\u8D8A\u75DB\u4E86\u3002"
+      - "\_\u4E0D\uFF0C\u6211\u662F\u8AAA\u4E00\u500B\u6703\u505A\u98EF\u3001\u4E0D\u62B1\u6028\uFF0C\u800C\u4E14\u80FD\u5FCD\u53D7\u6211\u7684\u52A9\u624B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 78
       debugIndex: 78
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\_\u6B72\u6708\u7684\u91CD\u91CF\u5C31\u662F\u6C89\u91CD\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1208,14 +1200,14 @@ MonoBehaviour:
       debugIndex: 79
       strings:
       - 
-      - Hunter_01
-      - Angry_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6211\u6C7A\u5B9A\u9000\u4F11\u5F8C\u53BB\u958B\u4E00\u5BB6\u72FC\u4EBA\u4E3B\u984C\u7684\u5496\u5561\u9928\u3002"
+      - "\_\u90A3\u4F60\u53EF\u80FD\u9700\u8981\u4E00\u96BB\u6A5F\u5668\u4EBA\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1223,14 +1215,14 @@ MonoBehaviour:
       debugIndex: 80
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u8AB0\u6562\u53BB\u554A\uFF01"
+      - "\u6211\u7684\u9B0D\u5B50\u9577\u5F97\u771F\u5FEB\uFF0C\u7C21\u76F4\u662F\u91CE\u5916\u751F\u5B58\u7684\u6A19\u914D\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1238,14 +1230,14 @@ MonoBehaviour:
       debugIndex: 81
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Happy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u90A3\u4E9B\u559C\u6B61\u72FC\u568E\u97F3\u6A02\u7684\u6587\u85DD\u9752\u5E74\u3002"
+      - "\u5B83\u770B\u8D77\u4F86\u50CF\u4E00\u5718\u9CE5\u5DE2\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1253,14 +1245,14 @@ MonoBehaviour:
       debugIndex: 82
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Happy_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u4F60\u77E5\u9053\u55CE\uFF0C\u93AE\u4E0A\u7684\u55AE\u8EAB\u5973\u6027\u8AAA\u4F60\u5F88\u72C2\u91CE\u3002"
+      - "\u54C8\u54C8\u54C8\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1268,29 +1260,21 @@ MonoBehaviour:
       debugIndex: 83
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Angry_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u771F\u7684\u55CE\uFF1F"
+      - "\u5E79\u8A71\u738B\u53C8\u958B\u5E79\u4E86\u55CE\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 84
       debugIndex: 84
       strings:
-      - 
-      - Hunter_02
-      - Happy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u662F\u554A\uFF0C\u91CE\u4EBA\u7684\u91CE\u3002"
+      - CharacterOff
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1300,27 +1284,27 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u6709\u6642\u5019\u6211\u89BA\u5F97\u6211\u61C9\u8A72\u53BB\u5BEB\u4E00\u672C\u81EA\u50B3\u3002"
+      - "\u6211\u4EE5\u524D\u662F\u500B\u795E\u69CD\u624B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 86
       debugIndex: 86
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u66F8\u540D\u5C31\u53EB\u300A\u4E00\u500B\u6355\u72FC\u7375\u4EBA\u7684\u72FC\u72FD\u751F\u6D3B\u300B\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1328,14 +1312,14 @@ MonoBehaviour:
       debugIndex: 87
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u70BA\u4EC0\u9EBC\u4F60\u7E3D\u662F\u5C0D\u6211\u9019\u9EBC\u523B\u8584\uFF1F"
+      - "\u4F60\u6628\u5929\u9023\u4E00\u96BB\u5154\u5B50\u90FD\u6C92\u6253\u5230\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1343,14 +1327,14 @@ MonoBehaviour:
       debugIndex: 88
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Idle_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u56E0\u70BA\u6211\u6015\u4F60\u4E00\u500B\u4EBA\u5BC2\u5BDE\u3002"
+      - "\u90A3\u662F\u56E0\u70BA\u5154\u5B50\u8DD1\u5F97\u592A\u5FEB\u4E86\uFF0C\u7260\u5011\u80AF\u5B9A\u5403\u4E86\u706B\u7BAD\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1358,14 +1342,14 @@ MonoBehaviour:
       debugIndex: 89
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - MoreHappy_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6211\u89BA\u5F97\u6211\u5011\u61C9\u8A72\u767C\u660E\u4E00\u7A2E\u65B0\u7684\u8A98\u990C\u3002"
+      - "\u4F60\u53EA\u662F\u8001\u82B1\u773C\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1373,14 +1357,14 @@ MonoBehaviour:
       debugIndex: 90
       strings:
       - 
-      - Hunter_02
-      - Idle_02
+      - Hunter_01
+      - MoreHappy_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u4EC0\u9EBC\u8A98\u990C\uFF1F"
+      - "\u5225\u770B\u4E0D\u8D77\u8001\u82B1\u773C\uFF0C\u81F3\u5C11\u6211\u770B\u5F97\u6E05\u695A\u904E\u53BB\u7684\u7F8E\u597D\u6642\u5149\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1388,29 +1372,29 @@ MonoBehaviour:
       debugIndex: 91
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Angry_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u6703\u767C\u5149\u7684\u57F9\u6839\u3002"
+      - "\u5929\u77E5\u9053\u4F60\u6709\u4EC0\u9EBC\u7F8E\u597D\u6642\u5149..."
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 92
       debugIndex: 92
       strings:
-      - 
-      - Hunter_02
-      - Angry_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u72FC\u53C8\u4E0D\u662F\u87A2\u706B\u87F2\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -1420,7 +1404,502 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Idle_01
+      - Center
       - 
+      - 
+      - 
+      - 
+      - "\u5982\u679C\u6211\u5011\u6293\u5230\u4E00\u96BB\u72FC\u738B\uFF0C\u6211\u5011\u662F\u4E0D\u662F\u5C31\u6210\u4E86\u72FC\u7684\u7236\u89AA\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 94
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 95
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u4E0D\uFF0C\u4F60\u53EA\u6703\u8B8A\u6210\u52D5\u7269\u4FDD\u8B77\u5354\u6703\u7684\u9ED1\u540D\u55AE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 96
+      strings:
+      - 
+      - Hunter_01
+      - MoreHappy_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u68EE\u6797\u88E1\u7684\u4EBA\u751F\u54F2\u5B78\u662F\u4EC0\u9EBC\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 97
+      strings:
+      - 
+      - Hunter_02
+      - Happy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6D3B\u4E0B\u53BB\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 98
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u932F\uFF01\u662F\u627E\u5230\u597D\u9152\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 99
+      strings:
+      - 
+      - Hunter_02
+      - Happy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u6211\u60F3\u77E5\u9053\u5982\u679C\u72FC\u4E5F\u6703\u7528\u624B\u6A5F\uFF0C\u7260\u5011\u6703\u767C\u4EC0\u9EBC\u8CBC\u6587\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 100
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 101
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
+      - 
+      - 
+      - 
+      - 
+      - "\u300C\u4ECA\u665A\u6708\u8272\u771F\u7F8E\uFF0C\u60F3\u627E\u500B\u5925\u4F34\u4E00\u8D77\u568E\u53EB\u3002\u300D"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 102
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 103
+      strings:
+      - 
+      - Hunter_02
+      - MoreHappy_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u300C\u4EBA\u985E\u7684\u9677\u9631\u53C8\u5347\u7D1A\u4E86\uFF0C\u6C42\u52A9\u653B\u3002\u300D"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 104
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6211\u89BA\u5F97\u6211\u7684\u80CC\u8D8A\u4F86\u8D8A\u75DB\u4E86\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 105
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6B72\u6708\u7684\u91CD\u91CF\u5C31\u662F\u6C89\u91CD\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 106
+      strings:
+      - 
+      - Hunter_01
+      - Angry_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6211\u6C7A\u5B9A\u9000\u4F11\u5F8C\u53BB\u958B\u4E00\u5BB6\u72FC\u4EBA\u4E3B\u984C\u7684\u5496\u5561\u9928\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 107
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u8AB0\u6562\u53BB\u554A\uFF01"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 108
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 109
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
+      - 
+      - 
+      - 
+      - 
+      - "\u90A3\u4E9B\u559C\u6B61\u72FC\u568E\u97F3\u6A02\u7684\u6587\u85DD\u9752\u5E74\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 110
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 111
+      strings:
+      - 
+      - Hunter_02
+      - MoreHappy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u4F60\u77E5\u9053\u55CE\uFF0C\u93AE\u4E0A\u7684\u55AE\u8EAB\u5973\u6027\u8AAA\u4F60\u5F88\u72C2\u91CE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 112
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u771F\u7684\u55CE\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 113
+      strings:
+      - 
+      - Hunter_02
+      - Happy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u662F\u554A\uFF0C\u91CE\u4EBA\u7684\u91CE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 114
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u6709\u6642\u5019\u6211\u89BA\u5F97\u6211\u61C9\u8A72\u53BB\u5BEB\u4E00\u672C\u81EA\u50B3\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 115
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u66F8\u540D\u5C31\u53EB\u300A\u4E00\u500B\u6355\u72FC\u7375\u4EBA\u7684\u72FC\u72FD\u751F\u6D3B\u300B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 116
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 117
+      strings:
+      - Bg
+      - Morning
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 118
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
+      - 
+      - 
+      - 
+      - 
+      - "\u70BA\u4EC0\u9EBC\u4F60\u7E3D\u662F\u5C0D\u6211\u9019\u9EBC\u523B\u8584\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 119
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 120
+      strings:
+      - 
+      - Hunter_02
+      - MoreHappy_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u56E0\u70BA\u6211\u6015\u4F60\u4E00\u500B\u4EBA\u5BC2\u5BDE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 121
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6211\u89BA\u5F97\u6211\u5011\u61C9\u8A72\u767C\u660E\u4E00\u7A2E\u65B0\u7684\u8A98\u990C\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 122
+      strings:
+      - 
+      - Hunter_02
+      - Idle_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u4EC0\u9EBC\u8A98\u990C\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 123
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u6703\u767C\u5149\u7684\u57F9\u6839\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 124
+      strings:
+      - 
+      - Hunter_02
+      - Angry_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u72FC\u53C8\u4E0D\u662F\u87A2\u706B\u87F2\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 125
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 126
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
       - 
       - 
       - 
@@ -1429,13 +1908,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 94
-      debugIndex: 94
+    - rowIndex: 127
+      debugIndex: 127
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 128
       strings:
       - 
       - Hunter_02
       - MoreHappy_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -1444,13 +1938,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 95
-      debugIndex: 95
+    - rowIndex: 129
+      debugIndex: 129
       strings:
       - 
       - Hunter_01
       - MoreHappy_01
-      - 
+      - Right
       - 
       - 
       - 
@@ -1459,13 +1953,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 96
-      debugIndex: 96
+    - rowIndex: 130
+      debugIndex: 130
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -1474,13 +1968,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 97
-      debugIndex: 97
+    - rowIndex: 131
+      debugIndex: 131
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 132
+      debugIndex: 132
       strings:
       - 
-      - Wolves
-      - 
-      - 
+      - Wolf_02
+      - Wolf_02
+      - Center
       - 
       - 
       - 
@@ -1489,13 +1998,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 98
-      debugIndex: 98
+    - rowIndex: 133
+      debugIndex: 133
       strings:
       - 
-      - Wolves
-      - 
-      - 
+      - Wolf_03
+      - Wolf_08
+      - Center
       - 
       - 
       - 
@@ -1504,13 +2013,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 99
-      debugIndex: 99
+    - rowIndex: 134
+      debugIndex: 134
       strings:
       - 
-      - Sheeps
-      - 
-      - 
+      - Sheep_03
+      - SheepPack_03
+      - Center
       - 
       - 
       - 
@@ -1519,8 +2028,8 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 100
-      debugIndex: 101
+    - rowIndex: 135
+      debugIndex: 136
       strings:
       - EndScenario
       isEmpty: 0
@@ -1528,7 +2037,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Start
     type: 1
-    textLength: 3051
+    textLength: 3999
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
     entityIndexTbl: 
@@ -3268,7 +3777,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - WolfPack.png
       isEmpty: 0
@@ -3284,7 +3793,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - Wolf_02.png
       isEmpty: 0
@@ -3300,7 +3809,7 @@ MonoBehaviour:
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - Wolf_08.png
       isEmpty: 0
@@ -3311,28 +3820,28 @@ MonoBehaviour:
       strings:
       - Sheep_01
       - 
-      - SheepPack_02
+      - SheepPack_01
       - 
       - 
       - 
       - 
+      - .3
       - 
-      - 
-      - SheepPack_02.png
+      - SheepPack_01.png
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 17
       debugIndex: 17
       strings:
-      - Sheep_02
+      - Sheep_03
       - 
       - SheepPack_03
       - 
       - 
       - 
       - 
-      - 
+      - .3
       - 
       - SheepPack_03.png
       isEmpty: 0
@@ -3340,7 +3849,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Character
     type: 1
-    textLength: 723
+    textLength: 733
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
@@ -3366,9 +3875,54 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Morning
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Morning.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Noon
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Noon.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Night
+      - Bg
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - Night.png
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Texture
     type: 1
-    textLength: 112
+    textLength: 162
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
@@ -3409,9 +3963,42 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
+    - rowIndex: 1
+      debugIndex: 1
+      strings:
+      - Center
+      - Character
+      - 0
+      - 0
+      - 200
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 2
+      debugIndex: 2
+      strings:
+      - Leaf
+      - Character
+      - -250
+      - 0
+      - 190
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 3
+      debugIndex: 3
+      strings:
+      - Right
+      - Character
+      - 250
+      - 0
+      - 190
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Layer
     type: 1
-    textLength: 109
+    textLength: 171
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
@@ -3711,9 +4298,9 @@ MonoBehaviour:
       debugIndex: 1
       strings:
       - 
-      - Wolves
-      - 
-      - 
+      - Wolf_01
+      - WolfPack
+      - Center
       - 
       - 
       - 
@@ -3726,9 +4313,9 @@ MonoBehaviour:
       debugIndex: 2
       strings:
       - 
-      - Sheeps
-      - 
-      - 
+      - Sheep_01
+      - SheepPack_01
+      - Center
       - 
       - 
       - 
@@ -3740,10 +4327,17 @@ MonoBehaviour:
     - rowIndex: 3
       debugIndex: 3
       strings:
+      - CharacterOff
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 4
+      debugIndex: 4
+      strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Center
       - 
       - 
       - 
@@ -3752,33 +4346,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 4
-      debugIndex: 4
-      strings:
-      - 
-      - Hunter_02
-      - Sad_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u70BA\u4E86\u8DDF\u6708\u4EAE\u804A\u5929\u2026"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 5
       debugIndex: 5
       strings:
-      - 
-      - Hunter_01
-      - Happy_01
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u4E0D\uFF0C\u56E0\u70BA\u7260\u5011\u7E3D\u7B97\u770B\u898B\u982D\u9802\u7684\u5929\u72FC\u661F\u4E86\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3788,7 +4367,52 @@ MonoBehaviour:
       - 
       - Hunter_02
       - Sad_02
+      - Center
       - 
+      - 
+      - 
+      - 
+      - "\u70BA\u4E86\u8DDF\u6708\u4EAE\u804A\u5929\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 7
+      debugIndex: 7
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 8
+      debugIndex: 8
+      strings:
+      - 
+      - Hunter_01
+      - Happy_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u4E0D\uFF0C\u56E0\u70BA\u7260\u5011\u7E3D\u7B97\u770B\u898B\u982D\u9802\u7684\u5929\u72FC\u661F\u4E86\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 9
+      debugIndex: 9
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
@@ -3797,13 +4421,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 7
-      debugIndex: 7
+    - rowIndex: 10
+      debugIndex: 10
       strings:
       - 
       - Hunter_01
       - MoreHappy_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -3812,13 +4436,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 8
-      debugIndex: 8
+    - rowIndex: 11
+      debugIndex: 11
       strings:
       - 
       - Hunter_02
       - Idle_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -3827,13 +4451,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 9
-      debugIndex: 9
+    - rowIndex: 12
+      debugIndex: 12
       strings:
       - 
       - Hunter_01
       - Happy_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -3842,13 +4466,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 10
-      debugIndex: 10
+    - rowIndex: 13
+      debugIndex: 13
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -3857,63 +4481,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 11
-      debugIndex: 11
-      strings:
-      - 
-      - Hunter_01
-      - MoreHappy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u5653... \u6709\u52D5\u975C\uFF01... \u7B49\u7B49\uFF0C\u90A3\u662F\u6211\u7684\u809A\u5B50\u5728\u53EB\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 12
-      debugIndex: 12
-      strings:
-      - 
-      - Hunter_02
-      - Happy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u7260\u5728\u568E\u53EB\u7684\u8072\u97F3\u6BD4\u771F\u6B63\u7684\u72FC\u9084\u5927\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 13
-      debugIndex: 13
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u4F60\u77E5\u9053\u5340\u5225\u4E00\u96BB\u597D\u72FC\u548C\u4E00\u96BB\u58DE\u72FC\u6700\u597D\u7684\u65B9\u6CD5\u55CE\uFF1F"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 14
       debugIndex: 14
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u770B\u7260\u6709\u6C92\u6709\u5C3E\u5DF4\uFF1F"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3922,28 +4501,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Happy_01
+      - MoreHappy_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u4E0D\uFF0C\u770B\u7260\u6709\u6C92\u6709\u88AB\u6211\u7684\u9677\u9631\u593E\u4F4F\u3002"
+      - "\_\u5653... \u6709\u52D5\u975C\uFF01... \u7B49\u7B49\uFF0C\u90A3\u662F\u6211\u7684\u809A\u5B50\u5728\u53EB\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 16
       debugIndex: 16
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u9019\u662F\u4EC0\u9EBC\u721B\u6A19\u6E96\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3951,14 +4530,14 @@ MonoBehaviour:
       debugIndex: 17
       strings:
       - 
-      - Hunter_01
-      - Happy_01
+      - Hunter_02
+      - Happy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u54C8\u54C8\u54C8\u2026"
+      - "\_\u7260\u5728\u568E\u53EB\u7684\u8072\u97F3\u6BD4\u771F\u6B63\u7684\u72FC\u9084\u5927\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3966,14 +4545,14 @@ MonoBehaviour:
       debugIndex: 18
       strings:
       - 
-      - Hunter_02
-      - Idle_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u55E8\u55E8\u55E8\u2026"
+      - "\_\u4F60\u77E5\u9053\u5340\u5225\u4E00\u96BB\u597D\u72FC\u548C\u4E00\u96BB\u58DE\u72FC\u6700\u597D\u7684\u65B9\u6CD5\u55CE\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -3981,29 +4560,29 @@ MonoBehaviour:
       debugIndex: 19
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6628\u665A\u6211\u5922\u5230\u6211\u6293\u5230\u4E00\u96BB\u6703\u8AAA\u8A71\u7684\u72FC\u3002"
+      - "\u770B\u7260\u6709\u6C92\u6709\u5C3E\u5DF4\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 20
       debugIndex: 20
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\_\u7260\u8AAA\u4E86\u4EC0\u9EBC\uFF1F"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4013,7 +4592,127 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Happy_01
+      - Center
       - 
+      - 
+      - 
+      - 
+      - "\u4E0D\uFF0C\u770B\u7260\u6709\u6C92\u6709\u88AB\u6211\u7684\u9677\u9631\u593E\u4F4F\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 22
+      debugIndex: 22
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 23
+      debugIndex: 23
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u9019\u662F\u4EC0\u9EBC\u721B\u6A19\u6E96\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 24
+      debugIndex: 24
+      strings:
+      - 
+      - Hunter_01
+      - Happy_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u54C8\u54C8\u54C8\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 25
+      debugIndex: 25
+      strings:
+      - 
+      - Hunter_02
+      - Idle_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u55E8\u55E8\u55E8\u2026"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 26
+      debugIndex: 26
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u6628\u665A\u6211\u5922\u5230\u6211\u6293\u5230\u4E00\u96BB\u6703\u8AAA\u8A71\u7684\u72FC\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 27
+      debugIndex: 27
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u7260\u8AAA\u4E86\u4EC0\u9EBC\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 28
+      debugIndex: 28
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 29
+      debugIndex: 29
+      strings:
+      - 
+      - Hunter_01
+      - Happy_01
+      - Center
       - 
       - 
       - 
@@ -4022,13 +4721,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 22
-      debugIndex: 22
+    - rowIndex: 30
+      debugIndex: 30
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 31
+      debugIndex: 31
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -4037,13 +4751,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 23
-      debugIndex: 23
+    - rowIndex: 32
+      debugIndex: 32
       strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Right
       - 
       - 
       - 
@@ -4052,13 +4766,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 24
-      debugIndex: 24
+    - rowIndex: 33
+      debugIndex: 33
       strings:
       - 
       - Hunter_02
       - MoreHappy_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -4067,13 +4781,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 25
-      debugIndex: 25
+    - rowIndex: 34
+      debugIndex: 34
       strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Right
       - 
       - 
       - 
@@ -4082,13 +4796,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 26
-      debugIndex: 26
+    - rowIndex: 35
+      debugIndex: 35
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -4097,13 +4811,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 27
-      debugIndex: 27
+    - rowIndex: 36
+      debugIndex: 36
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 37
+      debugIndex: 37
       strings:
       - 
       - Hunter_01
       - Happy_01
-      - 
+      - Center
       - 
       - 
       - 
@@ -4113,13 +4842,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 28
-      debugIndex: 28
+    - rowIndex: 38
+      debugIndex: 38
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 39
+      debugIndex: 39
       strings:
       - 
       - Hunter_02
       - Angry_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -4128,13 +4872,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 29
-      debugIndex: 29
+    - rowIndex: 40
+      debugIndex: 40
       strings:
       - 
       - Hunter_01
       - Idle_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -4143,13 +4887,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 30
-      debugIndex: 30
+    - rowIndex: 41
+      debugIndex: 41
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -4158,13 +4902,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 31
-      debugIndex: 31
+    - rowIndex: 42
+      debugIndex: 42
       strings:
       - 
       - Hunter_01
       - MoreHappy_01
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -4173,13 +4917,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 32
-      debugIndex: 32
+    - rowIndex: 43
+      debugIndex: 43
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Right
       - 
       - 
       - 
@@ -4188,183 +4932,18 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 33
-      debugIndex: 33
-      strings:
-      - 
-      - Hunter_01
-      - Happy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u662F\u6211\u809A\u5B50\u9913\u7684\u6642\u5019\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 34
-      debugIndex: 34
-      strings:
-      - 
-      - Hunter_02
-      - MoreHappy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u6211\u540C\u610F\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 35
-      debugIndex: 35
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u4F60\u65E9\u4E0A\u8D77\u4F86\u5F9E\u4F86\u4E0D\u5237\u7259\u662F\u55CE\uFF1F"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 36
-      debugIndex: 36
-      strings:
-      - 
-      - Hunter_02
-      - Angry_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u7576\u7136\u5237\u554A\uFF01\u6211\u9084\u7528\u6CC9\u6C34\u5462\uFF01"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 37
-      debugIndex: 37
-      strings:
-      - 
-      - Hunter_01
-      - MoreHappy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u4F60\u90A3\u662F\u6F31\u53E3\uFF0C\u4E0D\u662F\u5237\u7259\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 38
-      debugIndex: 38
-      strings:
-      - 
-      - Hunter_02
-      - Sad_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u5E79\u8A71\u90FD\u4F60\u5728\u8AAA\u2026"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 39
-      debugIndex: 39
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u6628\u5929\u6211\u770B\u5230\u4E00\u96BB\u677E\u9F20\u628A\u5805\u679C\u85CF\u5728\u6211\u978B\u5B50\u88E1\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 40
-      debugIndex: 40
-      strings:
-      - 
-      - Hunter_02
-      - Happy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u7260\u89BA\u5F97\u90A3\u6BD4\u4F60\u7684\u8166\u888B\u66F4\u5B89\u5168\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 41
-      debugIndex: 41
-      strings:
-      - 
-      - Hunter_01
-      - Idle_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u6211\u5011\u7684\u71DF\u706B\u5FEB\u6EC5\u4E86\uFF0C\u53BB\u64BF\u9EDE\u67F4\u706B\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 42
-      debugIndex: 42
-      strings:
-      - 
-      - Hunter_02
-      - Sad_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\_\u70BA\u4EC0\u9EBC\u7E3D\u662F\u6211\uFF1F"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
-    - rowIndex: 43
-      debugIndex: 43
-      strings:
-      - 
-      - Hunter_01
-      - Happy_01
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u56E0\u70BA\u4F60\u6BD4\u6211\u66F4\u5E74\u8F15\u6709\u70BA\uFF0C\u8DD1\u5F97\u5FEB\u3002"
-      isEmpty: 0
-      isCommentOut: 0
-      debugInfo: 
     - rowIndex: 44
       debugIndex: 44
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u6211\u77E5\u9053\uFF0C\u5C31\u662F\u5E74\u8F15\u6709\u70BA\u5730\u88AB\u4F60\u5974\u5F79\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4373,28 +4952,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Idle_01
+      - Happy_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u9019\u676F\u5496\u5561\u600E\u9EBC\u5690\u8D77\u4F86\u50CF\u6CE5\u5DF4\uFF1F"
+      - "\u662F\u6211\u809A\u5B50\u9913\u7684\u6642\u5019\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 46
       debugIndex: 46
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u56E0\u70BA\u5B83\u5C31\u662F\u6CE5\u5DF4\u3002\u4F60\u6628\u5929\u628A\u6C34\u58FA\u653E\u5728\u5730\u4E0A\u5FD8\u4E86\u84CB\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4402,14 +4981,14 @@ MonoBehaviour:
       debugIndex: 47
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - MoreHappy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u9019\u584A\u77F3\u982D\u770B\u8D77\u4F86\u5F88\u9069\u5408\u7576\u6795\u982D\u3002"
+      - "\u6211\u540C\u610F\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4417,14 +4996,14 @@ MonoBehaviour:
       debugIndex: 48
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u4F60\u8AAA\u9019\u8A71\u7684\u6642\u5019\uFF0C\u982D\u4E0A\u525B\u597D\u9802\u8457\u4E00\u96BB\u8778\u725B\u3002"
+      - "\u4F60\u65E9\u4E0A\u8D77\u4F86\u5F9E\u4F86\u4E0D\u5237\u7259\u662F\u55CE\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4432,14 +5011,14 @@ MonoBehaviour:
       debugIndex: 49
       strings:
       - 
-      - Hunter_01
-      - Happy_01
+      - Hunter_02
+      - Angry_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6B38\uFF0C\u4F60\u90A3\u500B\u6307\u5357\u91DD\u662F\u4E0D\u662F\u58DE\u4E86\uFF1F\u6211\u5011\u600E\u9EBC\u53C8\u56DE\u5230\u9019\u88E1\u4E86\uFF1F"
+      - "\u7576\u7136\u5237\u554A\uFF01\u6211\u9084\u7528\u6CC9\u6C34\u5462\uFF01"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4447,14 +5026,14 @@ MonoBehaviour:
       debugIndex: 50
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - MoreHappy_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u9019\u662F\u4F60\u7684\u4EBA\u751F\u6307\u5357\uFF0C\u8001\u50A2\u4F19\uFF0C\u4E00\u76F4\u5728\u539F\u5730\u6253\u8F49\u3002"
+      - "\u4F60\u90A3\u662F\u6F31\u53E3\uFF0C\u4E0D\u662F\u5237\u7259\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4462,29 +5041,29 @@ MonoBehaviour:
       debugIndex: 51
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u6C7A\u5B9A\u4E86\uFF0C\u6211\u8981\u5728\u9019\u8352\u90CA\u91CE\u5916\u84CB\u4E00\u68DF\u5225\u5885\u3002"
+      - "\u5E79\u8A71\u90FD\u4F60\u5728\u8AAA\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 52
       debugIndex: 52
       strings:
-      - 
-      - Hunter_02
-      - MoreHappy_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\_\u78BA\u5B9A\u4E0D\u6703\u8B8A\u6210\u72FC\u7AA9\u55CE\uFF1F"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4493,28 +5072,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Happy_01
+      - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6628\u665A\u7684\u6708\u4EAE\u7279\u5225\u5713\uFF0C\u8B93\u6211\u89BA\u5F97\u5F88\u6D6A\u6F2B\u3002"
+      - "\u6628\u5929\u6211\u770B\u5230\u4E00\u96BB\u677E\u9F20\u628A\u5805\u679C\u85CF\u5728\u6211\u978B\u5B50\u88E1\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 54
       debugIndex: 54
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u4F60\u53EA\u662F\u5FD8\u4E86\u6536\u8863\u670D\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4522,14 +5101,14 @@ MonoBehaviour:
       debugIndex: 55
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Happy_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u771F\u7684\u9700\u8981\u4E00\u500B\u52A9\u624B\u3002"
+      - "\u7260\u89BA\u5F97\u90A3\u6BD4\u4F60\u7684\u8166\u888B\u66F4\u5B89\u5168\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4537,14 +5116,14 @@ MonoBehaviour:
       debugIndex: 56
       strings:
       - 
-      - Hunter_02
-      - Idle_02
+      - Hunter_01
+      - Idle_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u5C31\u662F\u4F60\u7684\u52A9\u624B\u554A\uFF01"
+      - "\u6211\u5011\u7684\u71DF\u706B\u5FEB\u6EC5\u4E86\uFF0C\u53BB\u64BF\u9EDE\u67F4\u706B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4552,14 +5131,14 @@ MonoBehaviour:
       debugIndex: 57
       strings:
       - 
-      - Hunter_01
-      - MoreHappy_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u4E0D\uFF0C\u6211\u662F\u8AAA\u4E00\u500B\u6703\u505A\u98EF\u3001\u4E0D\u62B1\u6028\uFF0C\u800C\u4E14\u80FD\u5FCD\u53D7\u6211\u7684\u52A9\u624B\u3002"
+      - "\_\u70BA\u4EC0\u9EBC\u7E3D\u662F\u6211\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4567,14 +5146,14 @@ MonoBehaviour:
       debugIndex: 58
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - Happy_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u90A3\u4F60\u53EF\u80FD\u9700\u8981\u4E00\u96BB\u6A5F\u5668\u4EBA\u3002"
+      - "\u56E0\u70BA\u4F60\u6BD4\u6211\u66F4\u5E74\u8F15\u6709\u70BA\uFF0C\u8DD1\u5F97\u5FEB\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4582,29 +5161,29 @@ MonoBehaviour:
       debugIndex: 59
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u7684\u9B0D\u5B50\u9577\u5F97\u771F\u5FEB\uFF0C\u7C21\u76F4\u662F\u91CE\u5916\u751F\u5B58\u7684\u6A19\u914D\u3002"
+      - "\u6211\u77E5\u9053\uFF0C\u5C31\u662F\u5E74\u8F15\u6709\u70BA\u5730\u88AB\u4F60\u5974\u5F79\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 60
       debugIndex: 60
       strings:
-      - 
-      - Hunter_02
-      - Happy_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u5B83\u770B\u8D77\u4F86\u50CF\u4E00\u5718\u9CE5\u5DE2\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4613,28 +5192,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Happy_01
+      - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u54C8\u54C8\u54C8\u2026"
+      - "\u9019\u676F\u5496\u5561\u600E\u9EBC\u5690\u8D77\u4F86\u50CF\u6CE5\u5DF4\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 62
       debugIndex: 62
       strings:
-      - 
-      - Hunter_02
-      - Angry_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u5E79\u8A71\u738B\u53C8\u958B\u5E79\u4E86\u55CE\u2026"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4642,14 +5221,14 @@ MonoBehaviour:
       debugIndex: 63
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u4EE5\u524D\u662F\u500B\u795E\u69CD\u624B\u3002"
+      - "\u56E0\u70BA\u5B83\u5C31\u662F\u6CE5\u5DF4\u3002\u4F60\u6628\u5929\u628A\u6C34\u58FA\u653E\u5728\u5730\u4E0A\u5FD8\u4E86\u84CB\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4657,14 +5236,14 @@ MonoBehaviour:
       debugIndex: 64
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u4F60\u6628\u5929\u9023\u4E00\u96BB\u5154\u5B50\u90FD\u6C92\u6253\u5230\u3002"
+      - "\u9019\u584A\u77F3\u982D\u770B\u8D77\u4F86\u5F88\u9069\u5408\u7576\u6795\u982D\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4672,14 +5251,14 @@ MonoBehaviour:
       debugIndex: 65
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - MoreHappy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u90A3\u662F\u56E0\u70BA\u5154\u5B50\u8DD1\u5F97\u592A\u5FEB\u4E86\uFF0C\u7260\u5011\u80AF\u5B9A\u5403\u4E86\u706B\u7BAD\u3002"
+      - "\u4F60\u8AAA\u9019\u8A71\u7684\u6642\u5019\uFF0C\u982D\u4E0A\u525B\u597D\u9802\u8457\u4E00\u96BB\u8778\u725B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4687,14 +5266,14 @@ MonoBehaviour:
       debugIndex: 66
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Happy_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u4F60\u53EA\u662F\u8001\u82B1\u773C\u3002"
+      - "\u6B38\uFF0C\u4F60\u90A3\u500B\u6307\u5357\u91DD\u662F\u4E0D\u662F\u58DE\u4E86\uFF1F\u6211\u5011\u600E\u9EBC\u53C8\u56DE\u5230\u9019\u88E1\u4E86\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4702,29 +5281,29 @@ MonoBehaviour:
       debugIndex: 67
       strings:
       - 
-      - Hunter_01
-      - MoreHappy_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u5225\u770B\u4E0D\u8D77\u8001\u82B1\u773C\uFF0C\u81F3\u5C11\u6211\u770B\u5F97\u6E05\u695A\u904E\u53BB\u7684\u7F8E\u597D\u6642\u5149\u3002"
+      - "\u9019\u662F\u4F60\u7684\u4EBA\u751F\u6307\u5357\uFF0C\u8001\u50A2\u4F19\uFF0C\u4E00\u76F4\u5728\u539F\u5730\u6253\u8F49\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 68
       debugIndex: 68
       strings:
-      - 
-      - Hunter_02
-      - Angry_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u5929\u77E5\u9053\u4F60\u6709\u4EC0\u9EBC\u7F8E\u597D\u6642\u5149..."
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4734,27 +5313,27 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u5982\u679C\u6211\u5011\u6293\u5230\u4E00\u96BB\u72FC\u738B\uFF0C\u6211\u5011\u662F\u4E0D\u662F\u5C31\u6210\u4E86\u72FC\u7684\u7236\u89AA\uFF1F"
+      - "\u6211\u6C7A\u5B9A\u4E86\uFF0C\u6211\u8981\u5728\u9019\u8352\u90CA\u91CE\u5916\u84CB\u4E00\u68DF\u5225\u5885\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 70
       debugIndex: 70
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u4E0D\uFF0C\u4F60\u53EA\u6703\u8B8A\u6210\u52D5\u7269\u4FDD\u8B77\u5354\u6703\u7684\u9ED1\u540D\u55AE\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4762,14 +5341,14 @@ MonoBehaviour:
       debugIndex: 71
       strings:
       - 
-      - Hunter_01
-      - MoreHappy_01
+      - Hunter_02
+      - MoreHappy_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u68EE\u6797\u88E1\u7684\u4EBA\u751F\u54F2\u5B78\u662F\u4EC0\u9EBC\uFF1F"
+      - "\_\u78BA\u5B9A\u4E0D\u6703\u8B8A\u6210\u72FC\u7AA9\u55CE\uFF1F"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4777,14 +5356,14 @@ MonoBehaviour:
       debugIndex: 72
       strings:
       - 
-      - Hunter_02
-      - Happy_02
+      - Hunter_01
+      - Happy_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6D3B\u4E0B\u53BB\u3002"
+      - "\_\u6628\u665A\u7684\u6708\u4EAE\u7279\u5225\u5713\uFF0C\u8B93\u6211\u89BA\u5F97\u5F88\u6D6A\u6F2B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4792,14 +5371,14 @@ MonoBehaviour:
       debugIndex: 73
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u932F\uFF01\u662F\u627E\u5230\u597D\u9152\u3002"
+      - "\u4F60\u53EA\u662F\u5FD8\u4E86\u6536\u8863\u670D\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4807,14 +5386,14 @@ MonoBehaviour:
       debugIndex: 74
       strings:
       - 
-      - Hunter_02
-      - Happy_02
+      - Hunter_01
+      - Idle_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u6211\u60F3\u77E5\u9053\u5982\u679C\u72FC\u4E5F\u6703\u7528\u624B\u6A5F\uFF0C\u7260\u5011\u6703\u767C\u4EC0\u9EBC\u8CBC\u6587\uFF1F"
+      - "\u6211\u771F\u7684\u9700\u8981\u4E00\u500B\u52A9\u624B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4822,29 +5401,29 @@ MonoBehaviour:
       debugIndex: 75
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Idle_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u300C\u4ECA\u665A\u6708\u8272\u771F\u7F8E\uFF0C\u60F3\u627E\u500B\u5925\u4F34\u4E00\u8D77\u568E\u53EB\u3002\u300D"
+      - "\u6211\u5C31\u662F\u4F60\u7684\u52A9\u624B\u554A\uFF01"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 76
       debugIndex: 76
       strings:
-      - 
-      - Hunter_02
-      - MoreHappy_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u300C\u4EBA\u985E\u7684\u9677\u9631\u53C8\u5347\u7D1A\u4E86\uFF0C\u6C42\u52A9\u653B\u3002\u300D"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4853,28 +5432,28 @@ MonoBehaviour:
       strings:
       - 
       - Hunter_01
-      - Idle_01
+      - MoreHappy_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6211\u89BA\u5F97\u6211\u7684\u80CC\u8D8A\u4F86\u8D8A\u75DB\u4E86\u3002"
+      - "\_\u4E0D\uFF0C\u6211\u662F\u8AAA\u4E00\u500B\u6703\u505A\u98EF\u3001\u4E0D\u62B1\u6028\uFF0C\u800C\u4E14\u80FD\u5FCD\u53D7\u6211\u7684\u52A9\u624B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 78
       debugIndex: 78
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\_\u6B72\u6708\u7684\u91CD\u91CF\u5C31\u662F\u6C89\u91CD\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4882,14 +5461,14 @@ MonoBehaviour:
       debugIndex: 79
       strings:
       - 
-      - Hunter_01
-      - Angry_01
+      - Hunter_02
+      - Sad_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6211\u6C7A\u5B9A\u9000\u4F11\u5F8C\u53BB\u958B\u4E00\u5BB6\u72FC\u4EBA\u4E3B\u984C\u7684\u5496\u5561\u9928\u3002"
+      - "\_\u90A3\u4F60\u53EF\u80FD\u9700\u8981\u4E00\u96BB\u6A5F\u5668\u4EBA\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4897,14 +5476,14 @@ MonoBehaviour:
       debugIndex: 80
       strings:
       - 
-      - Hunter_02
-      - Sad_02
+      - Hunter_01
+      - Idle_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u8AB0\u6562\u53BB\u554A\uFF01"
+      - "\u6211\u7684\u9B0D\u5B50\u9577\u5F97\u771F\u5FEB\uFF0C\u7C21\u76F4\u662F\u91CE\u5916\u751F\u5B58\u7684\u6A19\u914D\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4912,14 +5491,14 @@ MonoBehaviour:
       debugIndex: 81
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Happy_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u90A3\u4E9B\u559C\u6B61\u72FC\u568E\u97F3\u6A02\u7684\u6587\u85DD\u9752\u5E74\u3002"
+      - "\u5B83\u770B\u8D77\u4F86\u50CF\u4E00\u5718\u9CE5\u5DE2\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4927,14 +5506,14 @@ MonoBehaviour:
       debugIndex: 82
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Happy_01
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u4F60\u77E5\u9053\u55CE\uFF0C\u93AE\u4E0A\u7684\u55AE\u8EAB\u5973\u6027\u8AAA\u4F60\u5F88\u72C2\u91CE\u3002"
+      - "\u54C8\u54C8\u54C8\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4942,29 +5521,21 @@ MonoBehaviour:
       debugIndex: 83
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Angry_02
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u771F\u7684\u55CE\uFF1F"
+      - "\u5E79\u8A71\u738B\u53C8\u958B\u5E79\u4E86\u55CE\u2026"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 84
       debugIndex: 84
       strings:
-      - 
-      - Hunter_02
-      - Happy_02
-      - 
-      - 
-      - 
-      - 
-      - 
-      - "\u662F\u554A\uFF0C\u91CE\u4EBA\u7684\u91CE\u3002"
+      - CharacterOff
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -4974,27 +5545,27 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Idle_01
+      - Center
       - 
       - 
       - 
       - 
-      - 
-      - "\u6709\u6642\u5019\u6211\u89BA\u5F97\u6211\u61C9\u8A72\u53BB\u5BEB\u4E00\u672C\u81EA\u50B3\u3002"
+      - "\u6211\u4EE5\u524D\u662F\u500B\u795E\u69CD\u624B\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 86
       debugIndex: 86
       strings:
-      - 
-      - Hunter_02
-      - Sad_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u66F8\u540D\u5C31\u53EB\u300A\u4E00\u500B\u6355\u72FC\u7375\u4EBA\u7684\u72FC\u72FD\u751F\u6D3B\u300B\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -5002,14 +5573,14 @@ MonoBehaviour:
       debugIndex: 87
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Sad_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u70BA\u4EC0\u9EBC\u4F60\u7E3D\u662F\u5C0D\u6211\u9019\u9EBC\u523B\u8584\uFF1F"
+      - "\u4F60\u6628\u5929\u9023\u4E00\u96BB\u5154\u5B50\u90FD\u6C92\u6253\u5230\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -5017,14 +5588,14 @@ MonoBehaviour:
       debugIndex: 88
       strings:
       - 
-      - Hunter_02
-      - MoreHappy_02
+      - Hunter_01
+      - Idle_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u56E0\u70BA\u6211\u6015\u4F60\u4E00\u500B\u4EBA\u5BC2\u5BDE\u3002"
+      - "\u90A3\u662F\u56E0\u70BA\u5154\u5B50\u8DD1\u5F97\u592A\u5FEB\u4E86\uFF0C\u7260\u5011\u80AF\u5B9A\u5403\u4E86\u706B\u7BAD\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -5032,14 +5603,14 @@ MonoBehaviour:
       debugIndex: 89
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - MoreHappy_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\_\u6211\u89BA\u5F97\u6211\u5011\u61C9\u8A72\u767C\u660E\u4E00\u7A2E\u65B0\u7684\u8A98\u990C\u3002"
+      - "\u4F60\u53EA\u662F\u8001\u82B1\u773C\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -5047,14 +5618,14 @@ MonoBehaviour:
       debugIndex: 90
       strings:
       - 
-      - Hunter_02
-      - Idle_02
+      - Hunter_01
+      - MoreHappy_01
+      - Leaf
       - 
       - 
       - 
       - 
-      - 
-      - "\u4EC0\u9EBC\u8A98\u990C\uFF1F"
+      - "\u5225\u770B\u4E0D\u8D77\u8001\u82B1\u773C\uFF0C\u81F3\u5C11\u6211\u770B\u5F97\u6E05\u695A\u904E\u53BB\u7684\u7F8E\u597D\u6642\u5149\u3002"
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -5062,29 +5633,29 @@ MonoBehaviour:
       debugIndex: 91
       strings:
       - 
-      - Hunter_01
-      - Idle_01
+      - Hunter_02
+      - Angry_02
+      - Right
       - 
       - 
       - 
       - 
-      - 
-      - "\u6703\u767C\u5149\u7684\u57F9\u6839\u3002"
+      - "\u5929\u77E5\u9053\u4F60\u6709\u4EC0\u9EBC\u7F8E\u597D\u6642\u5149..."
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
     - rowIndex: 92
       debugIndex: 92
       strings:
-      - 
-      - Hunter_02
-      - Angry_02
+      - CharacterOff
       - 
       - 
       - 
       - 
       - 
-      - "\u72FC\u53C8\u4E0D\u662F\u87A2\u706B\u87F2\u3002"
+      - 
+      - 
+      - 
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
@@ -5094,7 +5665,502 @@ MonoBehaviour:
       - 
       - Hunter_01
       - Idle_01
+      - Center
       - 
+      - 
+      - 
+      - 
+      - "\u5982\u679C\u6211\u5011\u6293\u5230\u4E00\u96BB\u72FC\u738B\uFF0C\u6211\u5011\u662F\u4E0D\u662F\u5C31\u6210\u4E86\u72FC\u7684\u7236\u89AA\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 94
+      debugIndex: 94
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 95
+      debugIndex: 95
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u4E0D\uFF0C\u4F60\u53EA\u6703\u8B8A\u6210\u52D5\u7269\u4FDD\u8B77\u5354\u6703\u7684\u9ED1\u540D\u55AE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 96
+      debugIndex: 96
+      strings:
+      - 
+      - Hunter_01
+      - MoreHappy_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u68EE\u6797\u88E1\u7684\u4EBA\u751F\u54F2\u5B78\u662F\u4EC0\u9EBC\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 97
+      debugIndex: 97
+      strings:
+      - 
+      - Hunter_02
+      - Happy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6D3B\u4E0B\u53BB\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 98
+      debugIndex: 98
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u932F\uFF01\u662F\u627E\u5230\u597D\u9152\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 99
+      debugIndex: 99
+      strings:
+      - 
+      - Hunter_02
+      - Happy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u6211\u60F3\u77E5\u9053\u5982\u679C\u72FC\u4E5F\u6703\u7528\u624B\u6A5F\uFF0C\u7260\u5011\u6703\u767C\u4EC0\u9EBC\u8CBC\u6587\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 100
+      debugIndex: 100
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 101
+      debugIndex: 101
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
+      - 
+      - 
+      - 
+      - 
+      - "\u300C\u4ECA\u665A\u6708\u8272\u771F\u7F8E\uFF0C\u60F3\u627E\u500B\u5925\u4F34\u4E00\u8D77\u568E\u53EB\u3002\u300D"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 102
+      debugIndex: 102
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 103
+      debugIndex: 103
+      strings:
+      - 
+      - Hunter_02
+      - MoreHappy_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u300C\u4EBA\u985E\u7684\u9677\u9631\u53C8\u5347\u7D1A\u4E86\uFF0C\u6C42\u52A9\u653B\u3002\u300D"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 104
+      debugIndex: 104
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6211\u89BA\u5F97\u6211\u7684\u80CC\u8D8A\u4F86\u8D8A\u75DB\u4E86\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 105
+      debugIndex: 105
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6B72\u6708\u7684\u91CD\u91CF\u5C31\u662F\u6C89\u91CD\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 106
+      debugIndex: 106
+      strings:
+      - 
+      - Hunter_01
+      - Angry_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6211\u6C7A\u5B9A\u9000\u4F11\u5F8C\u53BB\u958B\u4E00\u5BB6\u72FC\u4EBA\u4E3B\u984C\u7684\u5496\u5561\u9928\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 107
+      debugIndex: 107
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u8AB0\u6562\u53BB\u554A\uFF01"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 108
+      debugIndex: 108
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 109
+      debugIndex: 109
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
+      - 
+      - 
+      - 
+      - 
+      - "\u90A3\u4E9B\u559C\u6B61\u72FC\u568E\u97F3\u6A02\u7684\u6587\u85DD\u9752\u5E74\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 110
+      debugIndex: 110
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 111
+      debugIndex: 111
+      strings:
+      - 
+      - Hunter_02
+      - MoreHappy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u4F60\u77E5\u9053\u55CE\uFF0C\u93AE\u4E0A\u7684\u55AE\u8EAB\u5973\u6027\u8AAA\u4F60\u5F88\u72C2\u91CE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 112
+      debugIndex: 112
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u771F\u7684\u55CE\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 113
+      debugIndex: 113
+      strings:
+      - 
+      - Hunter_02
+      - Happy_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u662F\u554A\uFF0C\u91CE\u4EBA\u7684\u91CE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 114
+      debugIndex: 114
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u6709\u6642\u5019\u6211\u89BA\u5F97\u6211\u61C9\u8A72\u53BB\u5BEB\u4E00\u672C\u81EA\u50B3\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 115
+      debugIndex: 115
+      strings:
+      - 
+      - Hunter_02
+      - Sad_02
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u66F8\u540D\u5C31\u53EB\u300A\u4E00\u500B\u6355\u72FC\u7375\u4EBA\u7684\u72FC\u72FD\u751F\u6D3B\u300B\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 116
+      debugIndex: 116
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 117
+      debugIndex: 117
+      strings:
+      - Bg
+      - Morning
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 118
+      debugIndex: 118
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
+      - 
+      - 
+      - 
+      - 
+      - "\u70BA\u4EC0\u9EBC\u4F60\u7E3D\u662F\u5C0D\u6211\u9019\u9EBC\u523B\u8584\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 119
+      debugIndex: 119
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 120
+      debugIndex: 120
+      strings:
+      - 
+      - Hunter_02
+      - MoreHappy_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\_\u56E0\u70BA\u6211\u6015\u4F60\u4E00\u500B\u4EBA\u5BC2\u5BDE\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 121
+      debugIndex: 121
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\_\u6211\u89BA\u5F97\u6211\u5011\u61C9\u8A72\u767C\u660E\u4E00\u7A2E\u65B0\u7684\u8A98\u990C\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 122
+      debugIndex: 122
+      strings:
+      - 
+      - Hunter_02
+      - Idle_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u4EC0\u9EBC\u8A98\u990C\uFF1F"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 123
+      debugIndex: 123
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Leaf
+      - 
+      - 
+      - 
+      - 
+      - "\u6703\u767C\u5149\u7684\u57F9\u6839\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 124
+      debugIndex: 124
+      strings:
+      - 
+      - Hunter_02
+      - Angry_02
+      - Right
+      - 
+      - 
+      - 
+      - 
+      - "\u72FC\u53C8\u4E0D\u662F\u87A2\u706B\u87F2\u3002"
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 125
+      debugIndex: 125
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 126
+      debugIndex: 126
+      strings:
+      - 
+      - Hunter_01
+      - Idle_01
+      - Center
       - 
       - 
       - 
@@ -5103,13 +6169,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 94
-      debugIndex: 94
+    - rowIndex: 127
+      debugIndex: 127
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 128
+      debugIndex: 128
       strings:
       - 
       - Hunter_02
       - MoreHappy_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -5118,13 +6199,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 95
-      debugIndex: 95
+    - rowIndex: 129
+      debugIndex: 129
       strings:
       - 
       - Hunter_01
       - MoreHappy_01
-      - 
+      - Right
       - 
       - 
       - 
@@ -5133,13 +6214,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 96
-      debugIndex: 96
+    - rowIndex: 130
+      debugIndex: 130
       strings:
       - 
       - Hunter_02
       - Sad_02
-      - 
+      - Leaf
       - 
       - 
       - 
@@ -5148,13 +6229,28 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 97
-      debugIndex: 97
+    - rowIndex: 131
+      debugIndex: 131
+      strings:
+      - CharacterOff
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      - 
+      isEmpty: 0
+      isCommentOut: 0
+      debugInfo: 
+    - rowIndex: 132
+      debugIndex: 132
       strings:
       - 
-      - Wolves
-      - 
-      - 
+      - Wolf_02
+      - Wolf_02
+      - Center
       - 
       - 
       - 
@@ -5163,13 +6259,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 98
-      debugIndex: 98
+    - rowIndex: 133
+      debugIndex: 133
       strings:
       - 
-      - Wolves
-      - 
-      - 
+      - Wolf_03
+      - Wolf_08
+      - Center
       - 
       - 
       - 
@@ -5178,13 +6274,13 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 99
-      debugIndex: 99
+    - rowIndex: 134
+      debugIndex: 134
       strings:
       - 
-      - Sheeps
-      - 
-      - 
+      - Sheep_03
+      - SheepPack_03
+      - Center
       - 
       - 
       - 
@@ -5193,14 +6289,14 @@ MonoBehaviour:
       isEmpty: 0
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 100
-      debugIndex: 100
+    - rowIndex: 135
+      debugIndex: 135
       strings: []
       isEmpty: 1
       isCommentOut: 0
       debugInfo: 
-    - rowIndex: 101
-      debugIndex: 101
+    - rowIndex: 136
+      debugIndex: 136
       strings:
       - EndScenario
       isEmpty: 0
@@ -5208,7 +6304,7 @@ MonoBehaviour:
       debugInfo: 
     name: Assets/61232168/Scenarios/61232168.xls:Start
     type: 1
-    textLength: 3051
+    textLength: 3999
     headerRow: 0
     sourceAssetInEditor: {fileID: 102900000, guid: 6f9ce32e71dccc44ab011e369759766e, type: 3}
   - rows:
