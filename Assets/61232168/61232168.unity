@@ -5706,9 +5706,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.11147902
+    x: 0.00015056068
     y: 0
-    width: 0.777042
+    width: 0.9996989
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -19223,6 +19223,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SelectionItem
       objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: c012536e72ddd7a4f8efaca2207adc73, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: c012536e72ddd7a4f8efaca2207adc73, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d9c04100f25933e488d7745e21cf105b, type: 3}
     - target: {fileID: 22400002, guid: c012536e72ddd7a4f8efaca2207adc73, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -28180,9 +28188,9 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.11147902
+    x: 0.00015056068
     y: 0
-    width: 0.777042
+    width: 0.9996989
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
